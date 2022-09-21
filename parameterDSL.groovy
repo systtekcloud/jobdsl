@@ -13,6 +13,7 @@ job('Job DSL with parameters from git') {
   }
   triggers {
     cron('H/1 * * * *')
+    githubPush()
   }
   steps {
     shell("bash jobscript.sh")
