@@ -1,4 +1,4 @@
-job('Job DSL with parameters from git') {
+job('JobDSLwithParametersGit') {
 	description('Job DSL de ejemplo para el curso de Jenkins')
   scm {
     git('https://github.com/systtekcloud/jobdsl.git', 'main') { node ->
